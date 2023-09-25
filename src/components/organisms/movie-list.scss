@@ -1,0 +1,17 @@
+.movie-list{
+    padding: 20px 300px;
+
+    h2{
+        font-weight: bold;
+        color: red;
+        font-size: xx-large;
+    }
+
+    &__movie{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
